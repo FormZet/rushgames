@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	font-family: "Trebuchet MS";
+	min-height: 100vh;
+	background: linear-gradient(to top, #820612, #f1da36);;
+}
+
+*{
+	box-sizing: border-box;
+}
+header{	
+ text-align: center;
+}
+
+header h1{
+	text-align: center;
+	font-size: 56px;
+}
+header a{
+	text-align: center;
+	line-height: 120px;
+	margin: 0 100px 30px;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+header a:active{
+	color: #1dde85;
+}
+header a:visited{
+	color: #e9ed0b;
+}
+.aboutjob{
+margin-left: 100px;
+}
+.aboutfind{
+	text-align: right;
+	margin-right: 100px;
+}
+.about p{
+	margin-left: 50px;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+.about li{
+	text-align: right;
+	margin-right: 100px;
+	list-style-type: none;
+}
+@media screen and (min-width: 1024px) {
+	.container{
+		width: 1024px;
+		margin: 0 auto;
+	}
+}
